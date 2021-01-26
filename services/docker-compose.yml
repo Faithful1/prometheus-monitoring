@@ -3,7 +3,7 @@ version: "3"
 services:
   prometheus:
     build:
-      context: .
+      context: ./services
       dockerfile: Dockerfile
     restart: always
     ports:
